@@ -1,0 +1,15 @@
+{
+    "society_population_billions": 8.1,
+    "society_gdp_trillions": 105.0,
+    "society_inequality_index": 0.65,
+    "technology_readiness_level": 7.2,
+    "technology_innovation_index": 6.8,
+    "ethics_corruption_index": 4.5,
+    "ethics_human_rights_score": 7.0,
+    "cyber_threat_level": 6.3,
+    "cyber_defense_budget_millions": 850.0,
+    "quantum_computing_power_qubits": 112.0,
+    "quantum_research_funding": 45.0,
+    "diplomacy_relations_index": 5.8,
+    "diplomacy_trade_balance": 2.4
+}
