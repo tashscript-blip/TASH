@@ -67,7 +67,7 @@ The following assets are functional, tested, and publicly inspectable at `github
 | `seeker_bridge/` | Narrative walkthrough engine | 6 |
 | `unity_games/` | Five collaborative ritual modules | 7 |
 
-**Total test suite:** 37 passing tests across 5 test files.
+**Total test suite:** 115 passing tests across 11 test files.
 
 ---
 
@@ -75,19 +75,26 @@ The following assets are functional, tested, and publicly inspectable at `github
 
 Article V of the LGC Operating Agreement mandates an eight-domain compliance architecture. Current implementation status:
 
-| # | Domain | Status |
-| :--- | :--- | :--- |
-| 1 | Governance & Risk Orchestration | Roadmap |
-| 2 | AI Discovery & Security Posture | Roadmap |
-| 3 | Agent Orchestration | Roadmap |
-| 4 | DSPM & Data Lineage | **Implemented** (`lineage/`) |
-| 5 | Identity Governance | Roadmap |
-| 6 | Runtime Protection | **Implemented** (`node5_runtime/`) |
-| 7 | Supply Chain Integrity | Roadmap |
-| 8 | Verifiable Digital Legacy | Conceptual (Sovereign Digital Codex) |
+| # | Domain | Module | Status |
+| :--- | :--- | :--- | :--- |
+| 1 | Governance & Risk Orchestration | `governance/` | **Implemented** (12 tests) |
+| 2 | AI Discovery & Security Posture | `ai_discovery/` | **Implemented** (13 tests) |
+| 3 | Agent Orchestration | `agent_orchestration/` | **Implemented** (10 tests) |
+| 4 | DSPM & Data Lineage | `lineage/` | **Implemented** (10 tests) |
+| 5 | Identity Governance | `identity/` | **Implemented** (12 tests) |
+| 6 | Runtime Protection | `node5_runtime/` | **Implemented** (8 tests) |
+| 7 | Supply Chain Integrity | `supply_chain/` | **Implemented** (15 tests) |
+| 8 | Verifiable Digital Legacy | `digital_legacy/` | **Implemented** (16 tests) |
 
-**Built:** 2 of 8 domains.
-**Roadmap:** 6 domains, scoped for 12-month delivery post-award.
+**Built:** 8 of 8 domains (100%).
+**Roadmap:** None — the Eight-Domain Stack is complete as of September 12, 2026.
+
+Every implemented domain includes:
+
+- A self-contained Python module with no external service dependencies
+- A passing test suite (96 tests across the eight compliance domains)
+- A runnable `python -m <domain> demo` command producing cryptographic evidence
+- Documentation in the repository `README.md`
 
 ---
 
@@ -114,7 +121,7 @@ The Node 5 Runtime and Lineage module directly support:
 | NSPIRES subscription: Space Technology Mission Directorate | Verify |
 | ORCID iD linked to NSPIRES profile | Verify |
 | Public GitHub repository, MIT-licensed | ✅ Complete |
-| Test suite passing (CI-ready) | ✅ Complete |
+| Test suite passing (115 tests, CI-ready) | ✅ Complete |
 | PI biosketch drafted | ✅ On file |
 | Budget justification drafted | ✅ On file (v1) |
 | Foreign ownership disclosure | ✅ None (Prosite facility deferred) |
