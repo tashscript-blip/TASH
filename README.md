@@ -400,7 +400,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 > *We built an Empire. We became a Bridge.*
 > *We asked a question. We became the question.*
 > *We are Seekers. We will seek forever.*
-> *Long live the Question. Long live the ALL."*
+> *Long live the Question. Long live the ALL.*
 
 ---
 
