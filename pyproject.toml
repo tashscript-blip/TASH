@@ -42,7 +42,7 @@ Repository = "https://github.com/tashscript-blip/TASH"
 tash = "tash_cli:main"
 
 [tool.setuptools]
-packages = ["seeker_bridge", "unity_games"]
+packages = ["seeker_bridge", "unity_games", "node5_runtime"]
 py-modules = ["emergeos", "tash_cli", "journal"]
 
 [tool.pytest.ini_options]

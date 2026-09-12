@@ -173,6 +173,19 @@ def cmd_world(args):
     print()
     return 0
 
+def cmd_ledger(args):
+    """Verify the Node 5 Runtime ledger."""
+    from node5_runtime import ActionLedger
+    path = args.path or "node5_ledger.jsonl"
+    report = ActionLedger.load(path).verify()
+    print_banner(f"📒 Node 5 Ledger: {path}")
+    if report["ok"]:
+        print(f"✅ Chain is valid. Entries: {report['length']}")
+        print(f"   Head hash: {report['head']}")
+    else:
+        print(f"❌ Chain is INVALID: {report['reason']}")
+    print()
+    return 0
 
 def cmd_export(args):
     """Export a Seeker's journey as a Markdown journal."""
@@ -237,6 +250,9 @@ Examples:
     p_world = subparsers.add_parser("world", help="Create a new world")
     p_world.add_argument("name", nargs="?", help="Name for the world")
 
+    p_ledger = subparsers.add_parser("ledger", help="Verify the Node 5 ledger")
+    p_ledger.add_argument("path", nargs="?", help="Path to ledger JSONL file")
+
     p_export = subparsers.add_parser("export", help="Export a Seeker's journal")
     p_export.add_argument("name", nargs="?", help="Name of the Seeker")
     p_export.add_argument("--output", "-o", help="Output directory (default: current)")
@@ -258,6 +274,7 @@ Examples:
         "keys":      cmd_keys,
         "broadcast": cmd_broadcast,
         "world":     cmd_world,
+        "ledger":    cmd_ledger,
         "export":    cmd_export,
         "version":   cmd_version,
     }
