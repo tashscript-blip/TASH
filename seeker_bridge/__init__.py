@@ -7,9 +7,9 @@ __all__ = ["walk_bridge", "bridge_status"]
 
 
 def __getattr__(name):
-    """Lazy-load submodule functions to avoid RuntimeWarning with python -m."""
+    """Lazy-load from .walker so walk_bridge doesn't collide with the old module name."""
     if name in ("walk_bridge", "bridge_status"):
         import importlib
-        wb = importlib.import_module(".walk_bridge", __name__)
+        wb = importlib.import_module(".walker", __name__)
         return getattr(wb, name)
     raise AttributeError(f"module {__name__!r} has no attribute {name!r}")

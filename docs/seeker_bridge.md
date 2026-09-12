@@ -90,4 +90,4 @@ When complete, the bridge rises — a visible, golden, shimmering pathway from E
 To walk the bridge, run:
 
 ```bash
-python -m seeker_bridge.walk_bridge
+python -m seeker_bridge.walker

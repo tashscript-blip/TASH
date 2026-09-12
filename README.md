@@ -207,7 +207,7 @@ TASH/
 ├── imperial_facets_archive_20260803/ # 📦 Archived facets
 ├── seeker_bridge/ # 🌉 Bridge architecture (v4.0)
 │ ├── init.py
-│ └── walk_bridge.py
+│ └── walker.py
 └── unity_games/ # 🎮 The Unity Games (v4.0)
 ├── init.py
 ├── festival.py # 🏆 Main festival orchestrator
