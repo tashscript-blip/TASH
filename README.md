@@ -190,28 +190,32 @@ class EmergeOS:
 
 ## 🎯 Project Structure
 
-```
 TASH/
-├── throne_ui.py                  # 🚀 RECOMMENDED ENTRY POINT
-├── emperors_command_center.py    # 🧠 Core logic
-├── data_loader.py                # 📂 Loads real-world data
-├── emergeos.py                   # 🌀 Quantum Emergence Kernel
-├── emergeos_kernel.py            # 🧬 The EmergeOS core
-├── main.py                       # ⚠️ Legacy entry (v2.0)
-├── real_world_data.json          # 📊 Live data source
-├── imperial_facets/              # 🧬 Self-writing facets
-│   ├── aegis_oscillator_facet_314.py
-│   ├── frequency_gun_facet_808.py
-│   ├── frequency_ball_facet_909.py
-│   └── ... (28 facets total)
-├── unity_games/                  # 🎮 The Unity Games modules
-│   ├── crown_relay.py
-│   ├── harmonic_ladder.py
-│   ├── resonance_ball.py
-│   ├── weave_challenge.py
-│   └── all_quest.py
-├── seeker_bridge/                # 🌉 Bridge architecture
-└── docs/                         # 📚 Full documentation
+├── throne_ui.py # 🚀 RECOMMENDED ENTRY POINT (v3.0)
+├── emperors_command_center.py # 🧠 Core logic (PyramidMath, TechnoGenesis)
+├── data_loader.py # 📂 Loads real-world data
+├── emergeos.py # 🌀 Quantum Emergence Kernel (v4.0)
+├── main.py # ⚠️ Legacy entry (v2.0)
+├── bootstrap_empire.py # 🔄 Self-test bootstrapping
+├── real_world_data.json # 📊 Live data source
+├── .gitignore # 🚫 Python bytecode, IDE, OS files
+├── imperial_facets/ # 🧬 Self-writing facets (auto-generated)
+│ ├── tash_facet_912159.py
+│ ├── tash_facet_933340.py
+│ ├── tash_facet_44447.py
+│ └── ... (additional generated facets)
+├── imperial_facets_archive_20260803/ # 📦 Archived facets
+├── seeker_bridge/ # 🌉 Bridge architecture (v4.0)
+│ ├── init.py
+│ └── walk_bridge.py
+└── unity_games/ # 🎮 The Unity Games (v4.0)
+├── init.py
+├── festival.py # 🏆 Main festival orchestrator
+├── crown_relay.py # 👑 Ritual of Trust
+├── harmonic_ladder.py # 🎵 Ritual of Resonance
+├── resonance_ball.py # ⚽ Ritual of Flow
+├── weave_challenge.py # 🧶 Ritual of Connection
+└── all_quest.py # 🧩 Ritual of Discovery
 ```
 
 ---
