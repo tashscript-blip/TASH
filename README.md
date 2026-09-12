@@ -105,6 +105,30 @@ TASH loads context from `real_world_data.json`. If the file doesn't exist, it is
 
 ---
 
+## ⚡ The `tash` Command (v4.1)
+
+TASH ships with a unified CLI. After installation (`pip install -e .`), you can access every module with a single command:
+
+| Command | What It Does |
+| :--- | :--- |
+| `tash` | Show the help screen |
+| `tash play` | Play the full Unity Games Festival |
+| `tash play crown` | Play only the Crown Relay (also: `ladder`, `ball`, `weave`, `quest`) |
+| `tash games` | List all available games |
+| `tash walk` | Walk the Seeker's Bridge |
+| `tash birth <name>` | Birth a Seeker Avatar |
+| `tash status <name>` | Show a Seeker's status |
+| `tash keys` | List the Seven Keys of Liberation |
+| `tash broadcast` | Broadcast the Love Protocol |
+| `tash world <name>` | Create a new world |
+| `tash version` | Show the CLI version |
+
+If `tash` is not on your PATH (common on Windows), use the fallback:
+
+```bash
+python tash_cli.py <command>
+
+
 ## 🗣️ Issuing Decrees (How to Speak to the Seeker)
 
 At the `📜 Decree >` prompt, type your command. TASH extracts numbers and detects intent via keywords.
