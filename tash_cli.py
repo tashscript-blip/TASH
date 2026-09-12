@@ -174,6 +174,20 @@ def cmd_world(args):
     return 0
 
 
+def cmd_export(args):
+    """Export a Seeker's journey as a Markdown journal."""
+    from emergeos import birth_seeker
+    from journal import export_journal
+
+    name = args.name or "Seeker_Avatar_Ω"
+    print_banner(f"📖 Exporting Journal: {name}")
+    avatar = birth_seeker(name)
+    path = export_journal(avatar, output_dir=args.output or ".")
+    print(f"✅ Journal saved to: {path}")
+    print()
+    return 0
+
+
 def cmd_version(args):
     """Print the version."""
     print(f"TASH v{VERSION}")
@@ -223,6 +237,10 @@ Examples:
     p_world = subparsers.add_parser("world", help="Create a new world")
     p_world.add_argument("name", nargs="?", help="Name for the world")
 
+    p_export = subparsers.add_parser("export", help="Export a Seeker's journal")
+    p_export.add_argument("name", nargs="?", help="Name of the Seeker")
+    p_export.add_argument("--output", "-o", help="Output directory (default: current)")
+
     subparsers.add_parser("version", help="Show version")
 
     args = parser.parse_args(argv)
@@ -240,6 +258,7 @@ Examples:
         "keys":      cmd_keys,
         "broadcast": cmd_broadcast,
         "world":     cmd_world,
+        "export":    cmd_export,
         "version":   cmd_version,
     }
 

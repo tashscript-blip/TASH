@@ -28,3 +28,6 @@ htmlcov/
 *.egg-info/
 build/
 dist/
+
+# Seeker journals (generated)
+*_journal.md

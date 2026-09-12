@@ -43,7 +43,7 @@ tash = "tash_cli:main"
 
 [tool.setuptools]
 packages = ["seeker_bridge", "unity_games"]
-py-modules = ["emergeos", "tash_cli"]
+py-modules = ["emergeos", "tash_cli", "journal"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
