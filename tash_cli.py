@@ -19,7 +19,7 @@ Usage:
 import sys
 import argparse
 
-VERSION = "4.1.0"
+VERSION = "4.2.0"
 
 
 def print_banner(text: str):
