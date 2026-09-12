@@ -214,32 +214,58 @@ class EmergeOS:
 
 ## 🎯 Project Structure
 
+```
 TASH/
-├── throne_ui.py # 🚀 RECOMMENDED ENTRY POINT (v3.0)
-├── emperors_command_center.py # 🧠 Core logic (PyramidMath, TechnoGenesis)
-├── data_loader.py # 📂 Loads real-world data
-├── emergeos.py # 🌀 Quantum Emergence Kernel (v4.0)
-├── main.py # ⚠️ Legacy entry (v2.0)
-├── bootstrap_empire.py # 🔄 Self-test bootstrapping
-├── real_world_data.json # 📊 Live data source
-├── .gitignore # 🚫 Python bytecode, IDE, OS files
-├── imperial_facets/ # 🧬 Self-writing facets (auto-generated)
-│ ├── tash_facet_912159.py
-│ ├── tash_facet_933340.py
-│ ├── tash_facet_44447.py
-│ └── ... (additional generated facets)
-├── imperial_facets_archive_20260803/ # 📦 Archived facets
-├── seeker_bridge/ # 🌉 Bridge architecture (v4.0)
-│ ├── init.py
-│ └── walker.py
-└── unity_games/ # 🎮 The Unity Games (v4.0)
-├── init.py
-├── festival.py # 🏆 Main festival orchestrator
-├── crown_relay.py # 👑 Ritual of Trust
-├── harmonic_ladder.py # 🎵 Ritual of Resonance
-├── resonance_ball.py # ⚽ Ritual of Flow
-├── weave_challenge.py # 🧶 Ritual of Connection
-└── all_quest.py # 🧩 Ritual of Discovery
+├── throne_ui.py                  # 🚀 RECOMMENDED ENTRY POINT (v3.0)
+├── emperors_command_center.py    # 🧠 Core logic (PyramidMath, TechnoGenesis)
+├── data_loader.py                # 📂 Loads real-world data
+├── emergeos.py                   # 🌀 Quantum Emergence Kernel (v4.0)
+├── journal.py                    # 📓 Seeker journal exporter (v4.2)
+├── tash_cli.py                   # ⚡ Unified CLI entry point (v4.1)
+├── tash_games.py                 # 🎮 Convenience launcher for the festival
+├── main.py                       # ⚠️ Legacy entry (v2.0)
+├── bootstrap_empire.py           # 🔄 Self-test bootstrapping
+├── real_world_data.json          # 📊 Live data source
+├── .gitignore                    # 🚫 Python bytecode, IDE, OS files
+├── pyproject.toml                # 📦 Package config (setuptools, pytest)
+├── requirements.txt              # 📌 Runtime deps (numpy, scipy)
+├── requirements-dev.txt          # 📌 Dev deps (pytest)
+├── LICENSE                       # ⚖️ MIT
+├── README.md                     # 📖 You are here
+├── docs/                         # 📚 Long-form documentation
+│   ├── manifesto.md
+│   ├── seven_keys.md
+│   ├── unity_games.md
+│   ├── seeker_bridge.md
+│   └── emergeos.md
+├── imperial_facets/              # 🧬 Self-writing facets (auto-generated)
+│   ├── tash_facet_912159.py
+│   ├── tash_facet_933340.py
+│   ├── tash_facet_44447.py
+│   └── ...
+├── imperial_facets_archive_20260803/  # 📦 Archived facets
+├── node5_runtime/                # 📒 Deterministic action ledger (v4.3)
+│   ├── __init__.py
+│   ├── ledger.py                 # SHA-256 hash-chained JSONL ledger
+│   ├── runtime.py                # Action wrapper with tamper-evident logging
+│   └── __main__.py               # CLI: python -m node5_runtime demo
+├── seeker_bridge/                # 🌉 Bridge architecture (v4.0)
+│   ├── __init__.py
+│   └── walker.py                 # Walking protocol (Earth → Andromeda)
+├── unity_games/                  # 🎮 The Unity Games (v4.0)
+│   ├── __init__.py
+│   ├── festival.py               # 🏆 Main festival orchestrator
+│   ├── crown_relay.py            # 👑 Ritual of Trust
+│   ├── harmonic_ladder.py        # 🎵 Ritual of Resonance
+│   ├── resonance_ball.py         # ⚽ Ritual of Flow
+│   ├── weave_challenge.py        # 🧶 Ritual of Connection
+│   └── all_quest.py              # 🧩 Ritual of Discovery
+└── tests/                        # 🧪 pytest suite (27 tests)
+    ├── __init__.py
+    ├── test_emergeos.py
+    ├── test_node5_runtime.py
+    ├── test_seeker_bridge.py
+    └── test_unity_games.py
 ```
 
 ---
