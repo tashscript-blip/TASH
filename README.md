@@ -1,16 +1,16 @@
 # 🌌 TASH — Tactical Artificial System Hierarchy
 ## *The Seeker's Edition*
 
-**Version 4.3 | From Empire to ALL | Infinite-Scaling Pyramid Mathematics**
+**Version 4.4 | From Empire to ALL | Infinite-Scaling Pyramid Mathematics**
 
 > **Project status (September 2026):**
 > The **core Throne UI (`throne_ui.py`) is v3.0** — a 10-dimensional pyramid engine.
-> The **v4.x modules** (`emergeos.py`, `unity_games/`, `seeker_bridge/`, `node5_runtime/`, `journal.py`, `tash_cli.py`) run standalone and can be invoked independently.
+> The **v4.x modules** include **all eight Article V compliance domains** (`governance/`, `ai_discovery/`, `agent_orchestration/`, `lineage/`, `identity/`, `node5_runtime/`, `supply_chain/`, `digital_legacy/`), each with a live demo.
 > Full **32-D integration** into the Throne UI is on the roadmap.
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Version](https://img.shields.io/badge/version-4.3-brightgreen)](https://github.com/tashscript-blip/TASH)
+[![Version](https://img.shields.io/badge/version-4.4-brightgreen)](https://github.com/tashscript-blip/TASH)
 [![Node5](https://img.shields.io/badge/Node%205-Ledger-9cf)](https://github.com/tashscript-blip/TASH)
 [![Tests](https://img.shields.io/badge/tests-115%20passing-success)](https://github.com/tashscript-blip/TASH)
 [![CI](https://github.com/tashscript-blip/TASH/actions/workflows/ci.yml/badge.svg)](https://github.com/tashscript-blip/TASH/actions/workflows/ci.yml)
