@@ -32,6 +32,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0.0",
+    "flask>=3.0.0",
 ]
 
 [project.urls]
@@ -42,7 +43,7 @@ Repository = "https://github.com/tashscript-blip/TASH"
 tash = "tash_cli:main"
 
 [tool.setuptools]
-packages = ["seeker_bridge", "unity_games", "node5_runtime", "lineage", "agent_orchestration", "identity", "governance", "ai_discovery", "supply_chain", "digital_legacy"]
+packages = ["seeker_bridge", "unity_games", "node5_runtime", "lineage", "agent_orchestration", "identity", "governance", "ai_discovery", "supply_chain", "digital_legacy", "aci_dashboard"]
 py-modules = ["emergeos", "tash_cli", "journal"]
 
 [tool.pytest.ini_options]
