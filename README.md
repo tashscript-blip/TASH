@@ -12,7 +12,8 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Version](https://img.shields.io/badge/version-4.3-brightgreen)](https://github.com/tashscript-blip/TASH)
 [![Node5](https://img.shields.io/badge/Node%205-Ledger-9cf)](https://github.com/tashscript-blip/TASH)
-[![Tests](https://img.shields.io/badge/tests-27%20passing-success)](https://github.com/tashscript-blip/TASH)
+[![Tests](https://img.shields.io/badge/tests-115%20passing-success)](https://github.com/tashscript-blip/TASH)
+[![CI](https://github.com/tashscript-blip/TASH/actions/workflows/ci.yml/badge.svg)](https://github.com/tashscript-blip/TASH/actions/workflows/ci.yml)
 
 ---
 

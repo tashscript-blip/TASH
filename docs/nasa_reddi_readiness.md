@@ -122,6 +122,7 @@ The Node 5 Runtime and Lineage module directly support:
 | ORCID iD linked to NSPIRES profile | Verify |
 | Public GitHub repository, MIT-licensed | ✅ Complete |
 | Test suite passing (115 tests, CI-ready) | ✅ Complete |
+| Continuous Integration (GitHub Actions, Python 3.11/3.12/3.13) | ✅ Passing |
 | PI biosketch drafted | ✅ On file |
 | Budget justification drafted | ✅ On file (v1) |
 | Foreign ownership disclosure | ✅ None (Prosite facility deferred) |
