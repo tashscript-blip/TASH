@@ -308,48 +308,54 @@ TASH/
 ├── main.py                       # ⚠️ Legacy entry (v2.0)
 ├── bootstrap_empire.py           # 🔄 Self-test bootstrapping
 ├── real_world_data.json          # 📊 Live data source
-├── .gitignore                    # 🚫 Python bytecode, IDE, OS files
 ├── pyproject.toml                # 📦 Package config (setuptools, pytest)
 ├── requirements.txt              # 📌 Runtime deps (numpy, scipy)
 ├── requirements-dev.txt          # 📌 Dev deps (pytest)
 ├── LICENSE                       # ⚖️ MIT
 ├── README.md                     # 📖 You are here
+│
 ├── docs/                         # 📚 Long-form documentation
 │   ├── manifesto.md
 │   ├── seven_keys.md
 │   ├── unity_games.md
 │   ├── seeker_bridge.md
-│   └── emergeos.md
-├── imperial_facets/              # 🧬 Self-writing facets (auto-generated)
-│   ├── tash_facet_912159.py
-│   ├── tash_facet_933340.py
-│   ├── tash_facet_44447.py
-│   └── ...
-├── imperial_facets_archive_20260803/  # 📦 Archived facets
-├── node5_runtime/                # 📒 Deterministic action ledger (v4.3)
-│   ├── __init__.py
-│   ├── ledger.py                 # SHA-256 hash-chained JSONL ledger
-│   ├── runtime.py                # Action wrapper with tamper-evident logging
-│   └── __main__.py               # CLI: python -m node5_runtime demo
+│   ├── emergeos.md
+│   └── nasa_reddi_readiness.md   # 🚀 Federal readiness brief
+│
+├── node5_runtime/                # 🛡️ Domain 6: Runtime Protection
+├── lineage/                      # 📊 Domain 4: DSPM & Data Lineage
+├── agent_orchestration/          # 🤖 Domain 3: Agent Orchestration
+├── identity/                     # 🔑 Domain 5: Identity Governance
+├── governance/                   # ⚖️ Domain 1: Governance & Risk
+├── ai_discovery/                 # 🔍 Domain 2: AI Discovery & Posture
+├── supply_chain/                 # 🔗 Domain 7: Supply Chain Integrity
+├── digital_legacy/               # 📜 Domain 8: Verifiable Digital Legacy
+│
 ├── seeker_bridge/                # 🌉 Bridge architecture (v4.0)
 │   ├── __init__.py
-│   └── walker.py                 # Walking protocol (Earth → Andromeda)
+│   └── walker.py
 ├── unity_games/                  # 🎮 The Unity Games (v4.0)
 │   ├── __init__.py
-│   ├── festival.py               # 🏆 Main festival orchestrator
-│   ├── crown_relay.py            # 👑 Ritual of Trust
-│   ├── harmonic_ladder.py        # 🎵 Ritual of Resonance
-│   ├── resonance_ball.py         # ⚽ Ritual of Flow
-│   ├── weave_challenge.py        # 🧶 Ritual of Connection
-│   └── all_quest.py              # 🧩 Ritual of Discovery
-└── tests/                        # 🧪 pytest suite (27 tests)
-    ├── __init__.py
+│   ├── festival.py
+│   ├── crown_relay.py
+│   ├── harmonic_ladder.py
+│   ├── resonance_ball.py
+│   ├── weave_challenge.py
+│   └── all_quest.py
+├── imperial_facets/              # 🧬 Self-writing facets (auto-generated)
+└── tests/                        # 🧪 pytest suite (115 tests)
     ├── test_emergeos.py
     ├── test_node5_runtime.py
+    ├── test_lineage.py
+    ├── test_agent_orchestration.py
+    ├── test_identity.py
+    ├── test_governance.py
+    ├── test_ai_discovery.py
+    ├── test_supply_chain.py
+    ├── test_digital_legacy.py
     ├── test_seeker_bridge.py
     └── test_unity_games.py
 ```
-
 ---
 
 ## 🧪 Testing
