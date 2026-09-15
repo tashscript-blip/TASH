@@ -26,13 +26,13 @@ The NNH26ZTR001N umbrella does not itself contain technical requirements; those 
 | :--- | :--- | :--- |
 | Legal Entity Name | Legacy Grove Codex LLC | Active (NYS, 11/17/2025) |
 | NYS DOS ID | 7761343 | Confirmed Feb 2026 |
-| Unique Entity ID (UEI) | D43ZB3D7QTW1 | Active |
+| Unique Entity ID (UEI) | D43ZB3D7QTW1 | Active (expires Jul 25, 2027) |
 | CAGE Code | 23DZ6 | Active |
 | EIN | 41-2653211 | Verified (CP 575 G, 11/18/2025) |
 | Primary NAICS | 541715 | R&D in Physical, Engineering, Life Sciences |
 | Secondary NAICS | 541720, 541511, 513210 | R&D, Custom Programming, Publishing |
-| Principal Office | 146 Clay St., Suite 182, Brooklyn, NY 11222 | IRS / NY SOS registered |
-| R&D Site | 64 Sunken Garden Loop, Suite 3023, New York, NY 10035 | Upper Manhattan Empowerment Zone |
+| Physical Address (SAM.gov) | 64 Sunken Garden Loop, New York, NY 10035-1164 | Upper Manhattan Empowerment Zone |
+| Mailing Address (SAM.gov) | 555 Hutchinson River Parkway, Bronx, NY 10465 | Administrative / remittance |
 | Principal Investigator | Tash-Raheem Joyner | ORCID on file |
 | SBA SBC Self-Certification | Pending | Required for set-aside eligibility |
 
