@@ -343,8 +343,11 @@ TASH/
 │   ├── resonance_ball.py
 │   ├── weave_challenge.py
 │   └── all_quest.py
+├── aci_dashboard/                # 🌐 Adaptive Ceremonial Interface (web UI)
+│   ├── __init__.py
+│   └── app.py                    # Flask dashboard for all eight domains
 ├── imperial_facets/              # 🧬 Self-writing facets (auto-generated)
-└── tests/                        # 🧪 pytest suite (115 tests)
+└── tests/                        # 🧪 pytest suite (124 tests)
     ├── test_emergeos.py
     ├── test_node5_runtime.py
     ├── test_lineage.py
@@ -355,7 +358,8 @@ TASH/
     ├── test_supply_chain.py
     ├── test_digital_legacy.py
     ├── test_seeker_bridge.py
-    └── test_unity_games.py
+    ├── test_unity_games.py
+    └── test_aci_dashboard.py
 ```
 ---
 

@@ -89,6 +89,14 @@ Article V of the LGC Operating Agreement mandates an eight-domain compliance arc
 **Built:** 8 of 8 domains (100%).
 **Roadmap:** None — the Eight-Domain Stack is complete as of September 12, 2026.
 
+### 3.4 Adaptive Ceremonial Interface (ACI) Dashboard
+
+A Flask-based web dashboard provides a live visualization of all eight compliance domains. Reviewers can open the dashboard in a browser, click any domain card, and execute the domain's demo inline — with output captured and displayed in real time.
+
+- Location: `aci_dashboard/`
+- Launch: `python -m aci_dashboard.app` → http://127.0.0.1:5000
+- Tests: 9 passing
+
 Every implemented domain includes:
 
 - A self-contained Python module with no external service dependencies
