@@ -31,7 +31,7 @@ Everything you need to evaluate the platform: module inventory, standards alignm
 
 ### 🌉 For Collaborators Curious About the Design
 
-**→ [The Seeker's Framework](docs/narrative/README.md)**
+**→ [The Seeker\'s Framework](docs/narrative/README.md)**
 
 The design philosophy behind the platform — the Seven Keys, the Bridge, and why compliance tooling deserves a soul.
 
@@ -39,8 +39,62 @@ The design philosophy behind the platform — the Seven Keys, the Bridge, and wh
 
 ## Quick Start
 
-```bash
-git clone https://github.com/tashscript-blip/TASH.git
-cd TASH
-pip install -e ".[dev]"
-python -m pytest tests/ -q
+    git clone https://github.com/tashscript-blip/TASH.git
+    cd TASH
+    pip install -e ".[dev]"
+    python -m pytest tests/ -q
+
+Then try any of the eight domain demos:
+
+    python -m node5_runtime demo           # SHA-256 hash-chained action ledger
+    python -m lineage demo                 # Content-hash provenance chain
+    python -m agent_orchestration demo     # Authorization scope + audit report
+    python -m identity demo                # HMAC-signed action trail
+    python -m governance demo              # Risk register and coverage
+    python -m ai_discovery demo            # NIST AI RMF posture score
+    python -m supply_chain demo            # Component fingerprint verification
+    python -m digital_legacy demo          # Digital deeds and succession
+
+Or launch the web dashboard:
+
+    python -m aci_dashboard.app
+
+Then open http://127.0.0.1:5000
+
+---
+
+## The Platform At A Glance
+
+| Layer | Contents | Status |
+| :--- | :--- | :--- |
+| **Compliance domains** | 8 modules (governance through digital_legacy) | 96 tests passing |
+| **Runtime ledger** | node5_runtime — SHA-256 hash chain | Tamper-evident |
+| **Web dashboard** | aci_dashboard — Flask UI for all eight domains | 9 tests passing |
+| **CLI** | tash — narrative and governance commands | v4.5.0 |
+| **Federal readiness** | docs/nasa_reddi_readiness.md | Current |
+
+**Total: 124 tests passing, CI green on Python 3.11 / 3.12 / 3.13.**
+
+---
+
+## Entity
+
+| Field | Value |
+| :--- | :--- |
+| Legal Entity | Legacy Grove Codex LLC |
+| UEI | D43ZB3D7QTW1 |
+| CAGE | 23DZ6 |
+| SAM.gov | Active (expires Jul 25, 2027) |
+| Socio-economic | Self-Certified Small Disadvantaged Business |
+
+---
+
+## License
+
+MIT License. Copyright © 2026 LEGACY GROVE CODEX LLC | tashscript-blip.
+
+See [LICENSE](LICENSE) for terms.
+
+---
+
+*This README is intentionally brief. The technical and creative details live in the two sub-READMEs above.*
